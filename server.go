@@ -12,7 +12,7 @@ import (
 
 // NewMCPGuardServer creates the MCP server with all tools registered.
 func NewMCPGuardServer(store BudgetStore, cfg *Config, logger *zap.Logger) *server.MCPServer {
-	s := server.NewMCPServer("mcp-guard", "1.0.0",
+	s := server.NewMCPServer("agent-guard-mcp", "1.0.0",
 		server.WithToolCapabilities(false),
 	)
 

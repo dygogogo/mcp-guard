@@ -1,5 +1,5 @@
 {
-  "name": "mcp-guard",
+  "name": "agent-guard-mcp",
   "description": "Budget control, approval workflows, and audit logging for AI agents. Prevents overspending and unauthorized operations by AI agents (Claude Code, Cursor, ChatGPT).",
   "url": "http://localhost:8080",
   "tools": [

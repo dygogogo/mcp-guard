@@ -85,7 +85,7 @@ func autoDetectTransport() string {
 // resolvePayerID returns the payer identity following resolution order:
 // 1. PAYER_ID env var
 // 2. hostname
-// 3. "mcp-guard" fallback
+// 3. "agent-guard-mcp" fallback
 func resolvePayerID() string {
 	if id := getEnv("PAYER_ID", ""); id != "" {
 		return id

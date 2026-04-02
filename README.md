@@ -1,8 +1,8 @@
-# mcp-guard
+# agent-guard-mcp
 
-[![CI](https://github.com/dygogogo/mcp-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/dygogogo/mcp-guard/actions/workflows/ci.yml)
+[![CI](https://github.com/dygogogo/agent-guard-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/dygogogo/agent-guard-mcp/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Go Reference](https://pkg.go.dev/badge/github.com/dygogogo/mcp-guard.svg)](https://pkg.go.dev/github.com/dygogogo/mcp-guard)
+[![Go Reference](https://pkg.go.dev/badge/github.com/dygogogo/agent-guard-mcp.svg)](https://pkg.go.dev/github.com/dygogogo/agent-guard-mcp)
 
 MCP Guard Server — Budget control, approval workflows, and audit logging for AI agents.
 
@@ -41,8 +41,8 @@ Works with Claude Code, Cursor, ChatGPT, and any AI agent that speaks the MCP pr
 ### Build
 
 ```bash
-git clone https://github.com/dygogogo/mcp-guard.git
-cd mcp-guard
+git clone https://github.com/dygogogo/agent-guard-mcp.git
+cd agent-guard-mcp
 go build -o mcp-guard main.go
 ```
 
@@ -87,7 +87,7 @@ Add to Claude Code's MCP configuration:
 ```json
 {
   "mcpServers": {
-    "mcp-guard": {
+    "agent-guard-mcp": {
       "command": "mcp-guard",
       "env": {
         "MCP_TRANSPORT": "stdio",

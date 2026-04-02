@@ -1,4 +1,4 @@
-module github.com/dygogogo/mcp-guard
+module github.com/dygogogo/agent-guard-mcp
 
 go 1.24.6
 

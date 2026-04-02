@@ -43,6 +43,7 @@ logs/
 
 # 二进制
 mcp-guard
+agent-guard-mcp
 
 # Claude Code 相关
 CLAUDE.md

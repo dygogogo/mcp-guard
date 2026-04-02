@@ -43,9 +43,9 @@ func TestResolvePayerID(t *testing.T) {
 		t.Error("resolvePayerID() returned empty string")
 	}
 	// Should be hostname since PAYER_ID is unset
-	if id == "mcp-guard" {
+	if id == "agent-guard-mcp" {
 		// hostname lookup might fail, fallback is ok
-		t.Log("fell back to mcp-guard default")
+		t.Log("fell back to agent-guard-mcp default")
 	}
 
 	os.Setenv("PAYER_ID", "my-agent")

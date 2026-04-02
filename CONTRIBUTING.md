@@ -1,12 +1,12 @@
-# Contributing to mcp-guard
+# Contributing to agent-guard-mcp
 
 Thanks for your interest in contributing!
 
 ## Development Setup
 
 ```bash
-git clone https://github.com/dygogogo/mcp-guard.git
-cd mcp-guard
+git clone https://github.com/dygogogo/agent-guard-mcp.git
+cd agent-guard-mcp
 go mod download
 ```
 
