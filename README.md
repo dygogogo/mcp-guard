@@ -1,4 +1,4 @@
-# go-agent-guard
+# mcp-guard
 
 MCP Guard Server — 为 AI Agent 提供预算控制、审批工作流和审计日志的 MCP Server。
 
